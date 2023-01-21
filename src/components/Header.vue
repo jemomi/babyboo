@@ -44,9 +44,7 @@
         <div class="flex justify-between w-1440 mx-auto">
             <nav class="flex py-4">
                 <a href="./">
-                    <img src="/logo.svg"
-                         alt="BabyBoo logo"
-                         class="text-white"/>
+                    <IconLogosBabyBoo class="text-white"/>
                 </a>
                 <ul class="flex items-center text-white">
                     <li v-for="navItem in navigation">

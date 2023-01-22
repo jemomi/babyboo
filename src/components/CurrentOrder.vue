@@ -89,7 +89,8 @@
                             Vis Alle
                         </span>
                     </transition>
-                    <IconUiChevronDown class="ml-2.5 transition-transform duration-300" :class="{'rotate-180': isShowingAllProducts}"/>
+                    <IconUiChevronDown class="ml-2.5 transition-transform duration-300"
+                                       :class="{'rotate-180': isShowingAllProducts}"/>
                 </button>
             </div>
             <div v-else

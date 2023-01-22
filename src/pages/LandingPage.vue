@@ -4,7 +4,7 @@ import CurrentOrder from '../components/CurrentOrder.vue';
 </script>
 
 <template>
-    <div class="w-1440 mx-auto">
+    <div class="max-w-1440 mx-auto px-3">
         <h1>
             Velkommen BabyBob A/S
         </h1>

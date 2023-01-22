@@ -15,7 +15,7 @@ module.exports = {
         "kangaroo": "#C4C9C1",
         "soft-peach": "#F1ECE6"
       },
-      width: {
+      maxWidth: {
         1440: "1440px"
       }
     },

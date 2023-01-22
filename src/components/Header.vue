@@ -44,12 +44,12 @@
         BABYBOO for professionals
     </div>
     <div class="bg-primary-brown text-white">
-        <div class="flex justify-between w-1440 mx-auto">
+        <div class="flex justify-between max-w-1440 mx-auto px-3">
             <nav class="flex py-4">
                 <a href="./" class="mr-12">
                     <IconLogosBabyBoo/>
                 </a>
-                <ul class="flex items-center">
+                <ul class="hidden lg:flex items-center">
                     <li v-for="navItem in navigation"
                         class="mr-6 font-bold uppercase text-sm">
                         <a :href="navItem.url">
@@ -66,7 +66,7 @@
                     </button>
                 </form>
             </nav>
-            <div class="flex text-sm">
+            <div class="hidden lg:flex text-sm">
                 <button class="flex items-center mr-6">
                     <IconUiUserCheck class="mr-2.5"/>
                     BabyBob
@@ -79,6 +79,11 @@
                     <IconUiChevronDown/>
                 </button>
             </div>
+            <a href="#" class="flex flex-col justify-between self-center w-8 h-5 lg:hidden">
+                <span class="h-0.5 w-full rounded bg-white"></span>
+                <span class="h-0.5 w-full rounded bg-white"></span>
+                <span class="h-0.5 w-full rounded bg-white"></span>
+            </a>
         </div>
     </div>
 </template>

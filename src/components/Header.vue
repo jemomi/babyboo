@@ -40,29 +40,45 @@
 </script>
 
 <template>
-    <div class="bg-primary-brown">
+    <div class="bg-kangaroo py-1.5 text-center font-bold text-xs">
+        BABYBOO for professionals
+    </div>
+    <div class="bg-primary-brown text-white">
         <div class="flex justify-between w-1440 mx-auto">
             <nav class="flex py-4">
-                <a href="./">
-                    <IconLogosBabyBoo class="text-white"/>
+                <a href="./" class="mr-12">
+                    <IconLogosBabyBoo/>
                 </a>
-                <ul class="flex items-center text-white">
-                    <li v-for="navItem in navigation">
+                <ul class="flex items-center">
+                    <li v-for="navItem in navigation"
+                        class="mr-6 font-bold uppercase text-sm">
                         <a :href="navItem.url">
                             {{ navItem.name }}
                         </a>
                     </li>
                 </ul>
-                <form class="flex">
+                <form class="flex items-center">
                     <input type="search"
                            placeholder="Søg..."
                            class="h-8 px-2.5 py-1 rounded-l-xl border border-r-0 border-solid border-white bg-transparent placeholder:text-white placeholder:text-sm appearance-none"/>
-                    <button class="h-8 px-2.5 py-1 rounded-r-xl border border-l-0 border-solid border-white text-white">
-                        o
+                    <button class="h-8 px-2.5 py-1 rounded-r-xl border border-l-0 border-solid border-white">
+                        <IconUiSearch/>
                     </button>
                 </form>
             </nav>
-            <div></div>
+            <div class="flex text-sm">
+                <button class="flex items-center mr-6">
+                    <IconUiUserCheck class="mr-2.5"/>
+                    BabyBob
+                </button>
+                <button class="flex items-center">
+                    <IconUiGlobe/>
+                    <span class="mx-1">
+                        DK
+                    </span>
+                    <IconUiChevronDown/>
+                </button>
+            </div>
         </div>
     </div>
 </template>

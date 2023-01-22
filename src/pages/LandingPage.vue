@@ -2,6 +2,7 @@
 
 import CurrentOrder from '../components/CurrentOrder.vue';
 import LatestOrdersList from '../components/LatestOrdersList.vue';
+import FavoriteProducts from '../components/FavoriteProducts.vue';
 </script>
 
 <template>
@@ -17,7 +18,7 @@ import LatestOrdersList from '../components/LatestOrdersList.vue';
                 <LatestOrdersList/>
             </article>
             <article class="w-full px-4 lg:w-1/2 xl:w-1/4">
-                TBD
+                <FavoriteProducts/>
             </article>
         </section>
     </div>

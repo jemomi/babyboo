@@ -11,7 +11,7 @@
             <IconUiFolderHistory class="mr-2.5"/>
             Seneste ordrer
         </h3>
-        <a href="#bestillingsListe"
+        <a href="#"
            class="e-link">
             Se alle
         </a>

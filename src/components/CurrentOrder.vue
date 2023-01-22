@@ -54,7 +54,7 @@
                                   class="mt-2 space-y-2">
                     <li v-for="product in productList"
                         :key="product.id"
-                        class="flex items-center odd:bg-white">
+                        class="flex items-center pr-4 odd:bg-white">
                         <div class="flex items-center justify-center w-12 h-12 p-1 rounded bg-white mr-3">
                             <img :src="product.image_url"
                                  :alt="product.tagline"

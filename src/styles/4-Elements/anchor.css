@@ -1,0 +1,5 @@
+@layer components {
+    .e-link {
+        @apply font-open-sans text-sm underline;
+    }
+}

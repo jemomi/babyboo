@@ -5,5 +5,7 @@ import LandingPage from './pages/LandingPage.vue';
 
 <template>
     <Header/>
-    <LandingPage/>
+    <div class="mt-8">
+        <LandingPage/>
+    </div>
 </template>

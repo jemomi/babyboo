@@ -1,0 +1,5 @@
+@layer components {
+    h1, .h1 {
+        @apply uppercase text-3xl font-bold;
+    }
+}

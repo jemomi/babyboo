@@ -40,7 +40,7 @@
 </script>
 
 <template>
-    <div class="bg-kangaroo py-1.5 text-center font-bold text-xs">
+    <div class="bg-kangaroo py-1.5 text-center font-bold text-xs text-primary-brown">
         BABYBOO for professionals
     </div>
     <div class="bg-primary-brown text-white">

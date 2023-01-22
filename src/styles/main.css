@@ -1,9 +1,13 @@
+@import "4-Elements/index.css";
+@import "7-Utilities/index.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
     html {
-        @apply font-primary;
+        @apply font-oswald text-oil-brown;
     }
 }

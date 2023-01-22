@@ -1,6 +1,7 @@
 <script setup lang="ts">
 
 import CurrentOrder from '../components/CurrentOrder.vue';
+import LatestOrdersList from '../components/LatestOrdersList.vue';
 </script>
 
 <template>
@@ -8,14 +9,14 @@ import CurrentOrder from '../components/CurrentOrder.vue';
         <h1>
             Velkommen BabyBob A/S
         </h1>
-        <section class="flex mt-9">
-            <article class="w-1/2">
+        <section class="flex flex-wrap mt-9 -mx-4">
+            <article class="w-full px-4 xl:w-1/2">
                 <CurrentOrder/>
             </article>
-            <article class="w-1/4">
-                TBD
+            <article class="w-full px-4 lg:w-1/2 xl:w-1/4">
+                <LatestOrdersList/>
             </article>
-            <article class="w-1/4">
+            <article class="w-full px-4 lg:w-1/2 xl:w-1/4">
                 TBD
             </article>
         </section>

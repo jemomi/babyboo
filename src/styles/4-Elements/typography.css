@@ -2,4 +2,7 @@
     h1, .h1 {
         @apply uppercase text-3xl font-bold;
     }
+    h2, .h2 {
+        @apply uppercase text-xl font-bold;
+    }
 }

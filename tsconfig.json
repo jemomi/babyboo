@@ -16,6 +16,9 @@
       "unplugin-icons/types/vue",
     ]
   },
+  "paths": {
+    "@/*": ["src/*"]
+  },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -4,5 +4,6 @@ interface campaign {
     url: string,
     startDate: Date,
     endDate?: Date,
-    showIcon: boolean
+    showIcon: boolean,
+    type: "nutty" | "cloudy"
 }

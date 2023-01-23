@@ -25,3 +25,42 @@ export const campaigns: campaign[] = [
         type: "cloudy"
     }
 ]
+
+export const navigation: navigationItem[] = [
+    {
+        name: "Serier",
+        url: "#"
+    },
+    {
+        name: "Vugge",
+        url: "#"
+    },
+    {
+        name: "Børnesenge",
+        url: "#"
+    },
+    {
+        name: "Opbevaring",
+        url: "#"
+    },
+    {
+        name: "højstol",
+        url: "#"
+    },
+    {
+        name: "pusle",
+        url: "#"
+    },
+    {
+        name: "tekstiler",
+        url: "#"
+    },
+    {
+        name: "Tilbehør",
+        url: "#"
+    },
+    {
+        name: "Reservedele",
+        url: "#"
+    }
+];

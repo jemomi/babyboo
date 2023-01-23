@@ -1,42 +1,5 @@
 <script setup lang="ts">
-    const navigation: navigationItem[] = [
-        {
-            name: "Serier",
-            url: "#"
-        },
-        {
-            name: "Vugge",
-            url: "#"
-        },
-        {
-            name: "Børnesenge",
-            url: "#"
-        },
-        {
-            name: "Opbevaring",
-            url: "#"
-        },
-        {
-            name: "højstol",
-            url: "#"
-        },
-        {
-            name: "pusle",
-            url: "#"
-        },
-        {
-            name: "tekstiler",
-            url: "#"
-        },
-        {
-            name: "Tilbehør",
-            url: "#"
-        },
-        {
-            name: "Reservedele",
-            url: "#"
-        }
-    ];
+    import { navigation } from "../core/constants/staticData";
 </script>
 
 <template>

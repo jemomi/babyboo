@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import { campaigns } from "../core/constants/staticData";
+    import CtaButton from './CtaButton.vue';
     
     function formatDate(date: Date) {
         return date.toLocaleDateString("da-dk", { month: "long", year: "numeric" });
@@ -30,10 +31,7 @@
             <p class="mt-auto mb-1.5 uppercase text-white">
                 {{ campaign.name }}
             </p>
-            <span class="inline-flex items-center py-1.5 px-3.5 rounded-full bg-kangaroo">
-                Gå til kampagne
-                <IconUiArrowRight class="ml-2.5"/>
-            </span>
+            <CtaButton text="Gå til kampagne" type="span"/>
             <img :src="campaign.imageUrl"
                  class="absolute -z-2 inset-0 w-full">
             <div class="absolute -z-1 inset-0 opacity-35 bg-black">

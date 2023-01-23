@@ -4,6 +4,7 @@ import CurrentOrder from '../components/CurrentOrder.vue';
 import LatestOrdersList from '../components/LatestOrdersList.vue';
 import FavoriteProducts from '../components/FavoriteProducts.vue';
 import Campaigns from '../components/Campaigns.vue';
+import DealerResources from '../components/DealerResources.vue';
 </script>
 
 <template>
@@ -26,9 +27,6 @@ import Campaigns from '../components/Campaigns.vue';
     <section class="max-w-1440 mx-auto px-3">
         <Campaigns/>
     </section>
-    <div class="bg-kangaroo">
-        <div class="w-1440 mx-auto">
     
-        </div>
-    </div>
+    <DealerResources class="mt-10"/>
 </template>
